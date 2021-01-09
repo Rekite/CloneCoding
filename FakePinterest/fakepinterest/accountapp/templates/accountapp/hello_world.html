@@ -1,10 +1,24 @@
 {% extends 'base.html' %}
-
+<!-- 1rem = 16px -->
 {% block content %}
+    <style>
+        .testing {
+            background-color: white;
+            height: 3rem;
+            width: 3rem;
+            margin: 1rem;
+
+        }
+    </style>
     <div style="height: 20rem; background-color: #38df81; border-radius: 1rem; margin: 2rem;">
         <h1>
             testing
         </h1>
+
+        <div class="testing" style="display: inline-block; width: 48px; height: 48px">inline-block</div>
+        <div class="testing" style="display: inline-block; width: 3em; height: 3em">inline-block</div>
+        <div class="testing" style="display: inline-block; width: 3rem; height: 3rem">inline-block</div>
+        <div class="testing" style="display: inline-block; width: 30%; height: 30%">inline-block</div>
 
     </div>
 {% endblock %}
