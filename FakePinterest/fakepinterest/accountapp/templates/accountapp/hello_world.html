@@ -6,5 +6,16 @@
         <h1>
             testing
         </h1>
+
+        <!--form: 서버에 보내는 요청 명세서-->
+        <form action="/account/hello_world/" method="post">
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="POST">
+        </form>
+
+        <h1>
+            {{ text }}
+        </h1>
+
     </div>
 {% endblock %}
