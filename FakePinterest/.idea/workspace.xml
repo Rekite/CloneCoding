@@ -18,18 +18,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakepinterest/fakepinterest/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
-              <folding>
-                <element signature="e#314#338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fakepinterest/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1360">
@@ -47,18 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/hello_world.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -151,6 +144,7 @@
         <option value="$PROJECT_DIR$/fakepinterest/templates/footer.html" />
         <option value="$PROJECT_DIR$/fakepinterest/templates/header.html" />
         <option value="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/hello_world.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/accountapp/models.py" />
       </list>
     </option>
   </component>
@@ -184,33 +178,6 @@
               <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
               <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
               <item name="accountapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +217,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1235119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,15 +317,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/hello_world.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
