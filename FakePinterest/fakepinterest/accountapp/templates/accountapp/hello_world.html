@@ -2,20 +2,29 @@
 <!-- 1rem = 16px -->
 {% block content %}
 
-    <div style="height: 20rem; background-color: #38df81; border-radius: 1rem; margin: 2rem;">
-        <h1>
-            testing
+    <div style="border-radius: 1rem; margin: 2rem; text-align: center">
+        <h1 style="font-family: 'lobster', cursive;">
+            HELLO WORLD LIST!
         </h1>
 
         <!--form: 서버에 보내는 요청 명세서-->
         <form action="/account/hello_world/" method="post">
             {% csrf_token %}
-            <input type="submit" class="btn btn-primary" value="POST">
+            <div>
+                <input type="text" name="hello_world_input">
+            </div>
+            <div>
+                <input type="submit" class="btn btn-primary" value="POST">
+            </div>
         </form>
 
-        <h1>
-            {{ text }}
-        </h1>
+        {% if hello_world_list %}
+            {% for hello_world in hello_world_list %}
+            <h4>
+                {{ hello_world.text }}
+            </h4>
+            {% endfor %}
+        {% endif %}
 
     </div>
 {% endblock %}
