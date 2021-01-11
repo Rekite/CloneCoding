@@ -1,0 +1,17 @@
+.fakepin_logo{
+    font-family: 'Lobster', cursive;
+}
+
+.fakepin_footer_button{
+    font-size: .9rem;
+}
+
+.fakepin_footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.fakepin_header{
+    text-align: center;
+    margin: 2rem 0;
+}
