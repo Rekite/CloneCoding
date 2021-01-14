@@ -23,13 +23,13 @@ def hello_world(request):
 
         temp = request.post.get('hello_world_input')
 
-        new_hello_world = helloworld()
+        new_hello_world = hello_world()
         new_hello_world.text = temp
         new_hello_world.save()
 
         return httpresponseredirect(reverse('accountapp:hello_world')) #reverse: 해당하는 경로를 다시 만들어줌
     else:
-        hello_world_list = helloworld.objects.all()
+        hello_world_list = HelloWorld.objects.all()
         return render(request, 'accountapp/hello_world.html', context={'hello_world_list': hello_world_list})
 
     """else: #로그인하지 않았을 때
