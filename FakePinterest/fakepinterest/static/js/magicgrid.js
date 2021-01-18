@@ -282,4 +282,12 @@ let magicGrid = new MagicGrid({
   useMin: true
 });
 
+//이미지가 로드되었을 때 다시 레이아웃을 함
+var masonrys = document.getElementsByTagName("img");
+for (let i = 0; i < masonrys.length; i++){
+    masonrys[i].addEventListener('load', function(){
+        magicGrid.positionItems();
+    }, false);
+}
+
 magicGrid.listen();
