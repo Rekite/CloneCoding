@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+<!-- article을 추가해줌으로써 두번 받게 됨으로 base.html은 필요x -->
 {% load bootstrap4 %}
 
 {% block content %}
@@ -10,8 +10,16 @@
     <form action="{% url 'commentapp:create' %}" method="post">
         {% csrf_token %}
         {% bootstrap_form form %}
+
+        {% if user.is_authenticated %}
         <input type="submit" class="btn btn-dark rounded-pill col-6 mt-3">
-        <input type="hidden" name="article_pk" value="">
+        {% else %}
+        <a href="{% url 'accountapp:login' %}?next={{ request.path }}"
+           class="btn btn-dark rounded-pill col-6 mt-3">
+            Login
+        </a>
+        {% endif %}
+        <input type="hidden" name="article_pk" value="{{ article.pk }}">
     </form>
 </div>
 
