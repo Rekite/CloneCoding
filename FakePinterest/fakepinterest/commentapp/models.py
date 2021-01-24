@@ -1,8 +1,7 @@
-from django.contrib.auth.models import User
 from django.db import models
 
 # Create your models here.
-from articleapp.models import Article
+from articleapp.models import Article, User
 
 
 class Comment(models.Model):
