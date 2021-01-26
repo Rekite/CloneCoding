@@ -12,7 +12,9 @@ from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
 
 from accountapp.forms import AccountUpdateForm
 from accountapp.decorators import account_ownership_required
+from django.views.generic.list import MultipleObjectMixin
 
+from articleapp.models import Article
 
 has_ownership = [account_ownership_required, login_required]
 
@@ -27,7 +29,7 @@ def hello_world(request):
         new_hello_world.text = temp
         new_hello_world.save()
 
-        return httpresponseredirect(reverse('accountapp:hello_world')) #reverse: 해당하는 경로를 다시 만들어줌
+        return HttpResponseRedirect(reverse('accountapp:hello_world')) #reverse: 해당하는 경로를 다시 만들어줌
     else:
         hello_world_list = HelloWorld.objects.all()
         return render(request, 'accountapp/hello_world.html', context={'hello_world_list': hello_world_list})
@@ -43,10 +45,17 @@ class AccountCreateView(CreateView):
     success_url = reverse_lazy('accountapp:hello_world')
     template_name = 'accountapp/create.html'
 
-class AccountDetailView(DetailView):
+class AccountDetailView(DetailView, MultipleObjectMixin):
     model = User
     context_object_name = 'target_user'
     template_name = 'accountapp/detail.html'
+
+    paginate_by = 25
+
+    def get_context_data(self, **kwargs):
+        object_list = Article.objects.filter(writer=self.get_object())
+        return super(AccountDetailView, self).get_context_data(object_list=object_list, **kwargs)
+
 
 #일반 function에 사용하는 decorator를 메소드에서 사용 가능하게 변환해주는 데코레이터
 @method_decorator(has_ownership, 'get')
@@ -59,7 +68,6 @@ class AccountUpdateView(UpdateView):
     form_class = AccountUpdateForm
     success_url = reverse_lazy('accountapp:hello_world')
     template_name = 'accountapp/update.html'
-
     """
     def get(self, *args, **kwargs):
         #pk에 해당하는 object를 가져옴 => pk에 해당하는 유저 객체가 request를 보내고 있는 유저와 같은지 확인
