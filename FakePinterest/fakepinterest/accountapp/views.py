@@ -5,7 +5,6 @@ from django.http import HttpResponseRedirect, HttpResponseForbidden
 from django.shortcuts import render
 
 # Create your views here.
-from accountapp.models import HelloWorld
 from django.urls import reverse, reverse_lazy
 from django.utils.decorators import method_decorator
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView
@@ -19,23 +18,10 @@ from articleapp.models import Article
 has_ownership = [account_ownership_required, login_required]
 
 
-@login_required
-def hello_world(request):
-    if request.method == "post":
+#reverse: 해당하는 경로를 다시 만들어줌
 
-        temp = request.post.get('hello_world_input')
-
-        new_hello_world = hello_world()
-        new_hello_world.text = temp
-        new_hello_world.save()
-
-        return HttpResponseRedirect(reverse('accountapp:hello_world')) #reverse: 해당하는 경로를 다시 만들어줌
-    else:
-        hello_world_list = HelloWorld.objects.all()
-        return render(request, 'accountapp/hello_world.html', context={'hello_world_list': hello_world_list})
-
-    """else: #로그인하지 않았을 때
-        return HttpResponseRedirect(reverse('accountapp:login'))"""
+"""else: #로그인하지 않았을 때
+return HttpResponseRedirect(reverse('accountapp:login'))"""
 
 class AccountCreateView(CreateView):
     model = User
