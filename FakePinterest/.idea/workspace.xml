@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fakepinterest/fakepinterest/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="111">
@@ -71,6 +71,44 @@
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fakepinterest/templates/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -116,38 +154,6 @@
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/update.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -213,7 +219,6 @@
         <option value="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/delete.html" />
         <option value="$PROJECT_DIR$/fakepinterest/commentapp/decorators.py" />
         <option value="$PROJECT_DIR$/fakepinterest/commentapp/views.py" />
-        <option value="$PROJECT_DIR$/fakepinterest/templates/head.html" />
         <option value="$PROJECT_DIR$/fakepinterest/static/js/magicgrid.js" />
         <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/list.html" />
         <option value="$PROJECT_DIR$/fakepinterest/projectapp/forms.py" />
@@ -225,7 +230,6 @@
         <option value="$PROJECT_DIR$/fakepinterest/static/base.css" />
         <option value="$PROJECT_DIR$/fakepinterest/articleapp/models.py" />
         <option value="$PROJECT_DIR$/fakepinterest/templates/snippets/list_fakepin.html" />
-        <option value="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html" />
         <option value="$PROJECT_DIR$/fakepinterest/subscribeapp/models.py" />
         <option value="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/detail.html" />
         <option value="$PROJECT_DIR$/fakepinterest/subscribeapp/views.py" />
@@ -242,12 +246,14 @@
         <option value="$PROJECT_DIR$/fakepinterest/accountapp/urls.py" />
         <option value="$PROJECT_DIR$/fakepinterest/accountapp/views.py" />
         <option value="$PROJECT_DIR$/fakepinterest/fakepinterest/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/head.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="375" />
-    <option name="y" value="39" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="248" />
+    <option name="y" value="364" />
     <option name="width" value="1011" />
     <option name="height" value="618" />
   </component>
@@ -274,7 +280,34 @@
               <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
               <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
               <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
               <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="accountapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FakePinterest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FakePinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="fakepinterest" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,9 +407,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="61" width="1011" height="618" extended-state="0" />
+    <frame x="248" y="364" width="1011" height="618" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16443987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16443987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -387,7 +421,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37190083" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37190083" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -549,13 +583,6 @@
         <state relative-caret-position="-100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="4" column="89" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -623,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -646,20 +663,6 @@
           <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -843,6 +846,38 @@
           <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
             <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
