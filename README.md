@@ -1,2 +1,0 @@
-# CloneCoding
-Clone Coding

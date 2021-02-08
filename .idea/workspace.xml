@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6108f86-fe2c-4d7d-b1fa-6d5a8e5c64c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fakepinterest/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/accountapp/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/accountapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/articleapp/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/articleapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/articleapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/commentapp/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/commentapp/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/commentapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/profileapp/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/profileapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/profileapp/templates/profileapp/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/profileapp/templates/profileapp/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/profileapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/projectapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/projectapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/static/js/magicgrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/subscribeapp/templates/subscribeapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/subscribeapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/snippets/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/snippets/list_fakepin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fakepinterest/templates/snippets/pagination.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>static</find>
+      <find>helloworld</find>
+      <find>subscribe</find>
+      <find>hello</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\semai\CloneCoding\FakePinterest\fakepinterest</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fakepinterest/profileapp/decorators.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/profileapp/views.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/lsit.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/decorators.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/delete.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/.gitignore" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/snippets.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/snippets/card.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/templates/create.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/form.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/views.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/create.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/models.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/detail.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/delete.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/decorators.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/commentapp/views.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/static/js/magicgrid.js" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/list.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/forms.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/create.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/snippets/pagination.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/list.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/snippets/card_project.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/static/base.css" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/models.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/snippets/list_fakepin.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/subscribeapp/models.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/detail.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/subscribeapp/views.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/subscribeapp/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/header.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/subscribeapp/templates/subscribeapp/list.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/create.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/detail.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/update.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/articleapp/forms.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/models.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/projectapp/views.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/fakepinterest/settings.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/accountapp/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/accountapp/views.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/fakepinterest/urls.py" />
+        <option value="$PROJECT_DIR$/fakepinterest/templates/head.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html" />
+        <option value="$PROJECT_DIR$/fakepinterest/Dockerfile" />
+        <option value="$PROJECT_DIR$/fakepinterest/requirements.txt" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="112" />
+    <option name="y" value="130" />
+    <option name="width" value="1011" />
+    <option name="height" value="618" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CloneCoding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloneCoding" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\semai\CloneCoding\FakePinterest\fakepinterest\templates\snippets" />
+      <recent name="C:\Users\semai\CloneCoding\FakePinterest\fakepinterest\projectapp\templates\projectapp" />
+      <recent name="C:\Users\semai\CloneCoding\FakePinterest\fakepinterest\commentapp" />
+      <recent name="C:\Users\semai\CloneCoding\FakePinterest\fakepinterest\commentapp\templates\commentapp" />
+      <recent name="C:\Users\semai\CloneCoding\FakePinterest\fakepinterest\articleapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\semai\CloneCoding\FakePinterest\fakepinterest\commentapp\templates\commentapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="FakePinterest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\semai\CloneCoding\FakePinterest\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fakepinterest/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fakepinterest/venv/Scripts" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FakePinterest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\semai\CloneCoding\FakePinterest\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fakepinterest/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fakepinterest/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6108f86-fe2c-4d7d-b1fa-6d5a8e5c64c9" name="Default Changelist" comment="" />
+      <created>1609938897026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609938897026</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16220239" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26065573" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29508197" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1435132" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26443204" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/tests.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/models.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/form.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/create.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/delete.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/static/js/magicgrid.js" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/templates/commentapp/detail.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/create.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/snippets/pagination.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/decorators.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/footer.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/base.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/decorators.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/decorators.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/commentapp/views.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/forms.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/apps.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/list.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/snippets/card_project.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/static/base.css" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/list.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/views.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/fakepinterest/settings.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/subscribeapp/tests.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/subscribeapp/models.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/templates/projectapp/detail.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/subscribeapp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/header.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/subscribeapp/templates/subscribeapp/list.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/snippets/list_fakepin.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/detail.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/update.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/templates/articleapp/create.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/hello_world.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/models.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/subscribeapp/views.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/fakepinterest/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/models.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/templates/head.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/articleapp/forms.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/models.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/projectapp/views.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/views.py" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/accountapp/templates/accountapp/detail.html" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/.env" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/fakepinterest/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
